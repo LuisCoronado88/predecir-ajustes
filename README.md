@@ -5,13 +5,13 @@
 </p>
 
 <p align="center">
-  <strong>Sistema Analítico para Identificación Temprana de Ajustes de Facturación</strong>
+  <strong>Sistema Analítico para identificación temprana de ajustes de facturación</strong>
 </p>
-# 📊 AjustePredictor v1.0
+# 📊 Ajuste predictor
 
 ## 📋 Descripción
 
-**AjustePredictor** es una solución analítica de nivel empresarial desarrollada con **Python**, **Dash** y **Plotly** diseñada para interceptar, evaluar y predecir anomalías en la facturación de servicios públicos. 
+**Ajuste predictor** es una solución analítica de nivel empresarial desarrollada con **Python**, **Dash** y **Plotly** diseñada para interceptar, evaluar y predecir anomalías en la facturación de servicios públicos. 
 
 El sistema combina técnicas avanzadas de **Análisis Exploratorio de Datos (EDA)** con un motor de inferencia interactivo respaldado por un pipeline optimizado de **Machine Learning (Gradient Boosting Classifier)**, permitiendo mitigar el impacto financiero y optimizar los costos de inspección operativa antes de la emisión final del documento de cobro.
 
@@ -26,7 +26,7 @@ El sistema combina técnicas avanzadas de **Análisis Exploratorio de Datos (EDA
 
 ---
 
-## 🏗️ Estructura del Proyecto
+## 🏗️ Estructura del proyecto
 
 ```text
 ajuste-predictor/
