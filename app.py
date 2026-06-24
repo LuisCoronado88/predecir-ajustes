@@ -8,12 +8,12 @@ import pandas as pd  # <-- Agregado 'pd' para evitar NameError en el simulador
 # Inicialización robusta con Bootstrap para evitar rupturas de React
 app = dash.Dash(
     __name__, 
-    title="AjustePredictor",
+    title="Ajuste predictor",
     external_stylesheets=[dbc.themes.BOOTSTRAP],
     suppress_callback_exceptions=True  # Crítico para inyección dinámica de layouts
 )
 
-RUTA_MODELO = r'D:\AjusteFacturacion\data\ajuste_predictor_model.pkl'
+RUTA_MODELO = r'data\ajuste_predictor_model.pkl'
 
 if os.path.exists(RUTA_MODELO):
     try:
